@@ -133,8 +133,13 @@ body {
 }
 
 .cover {
-  background: radial-gradient(circle farthest-corner at 80% 20%, hsl(150 80% 20% / .3) 0%, hsl(170 60% 10% / .1) 100%),
-    hsl(231, 33%, 44%)  50% / cover;
+  background: 
+    radial-gradient(
+      circle farthest-corner at 80% 20%, 
+      hsl(150 80% 20% / 0.3) 0%, 
+      hsl(170 60% 10% / 0.1) 100%
+    ),
+    hsl(231, 32%, 29%) url("cat.jpg") 50% / cover;
   color: hsl(200 30% 98%);
 }
 
